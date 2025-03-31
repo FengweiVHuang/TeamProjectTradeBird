@@ -1,0 +1,94 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.register-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #d8eaff;
+    padding: 20px;
+}
+
+.string-input-text {
+    margin-bottom: 15px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.string-input-text label {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.string-input-text input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+
+
+.register-container button:hover {
+    background-color: #45a049;
+}
+
+/* Logo 容器样式 */
+.logo-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.logo-container img {
+    width: 150px;
+    height: auto;
+}
+
+.auth-form-register {
+    width: 600px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+.auth-form-register label {
+    width: 40%;
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.auth-form-register input {
+    width: 60%;
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.auth-form-register button {
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.auth-form-register button:hover {
+    background-color: #45a049;
+}

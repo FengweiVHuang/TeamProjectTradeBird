@@ -1,0 +1,21 @@
+.newCommentArea{
+    width: 100%;
+    height: max-content;
+    background: rgba(159, 176, 223, 0.33);
+
+    button{
+        border: transparent;
+        background: #117a8b;
+        color: white;
+        height: 30px;
+        width: 20%;
+    }
+    button:hover{
+        background: #0c5460;
+    }
+
+    .fullwidth{
+        width: 100%;
+        height: 150px;
+    }
+}
